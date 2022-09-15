@@ -10,7 +10,6 @@ body {
   font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
   background-color: #0E0E0E;
   color: #fff;
-  padding: 15px 0;
 }
 
 img {
@@ -48,6 +47,12 @@ header img {
 }
 header ul li {
   display: inline-block;
+}
+
+.jumbotron {
+  height: 350px;
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top center;
 }
 
 .comic-img {
