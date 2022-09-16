@@ -1,16 +1,16 @@
 <?php
 
 return [
-  ['text' => 'Characters', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Comics', 'url' => '/comics', 'current' => 'false'],
-  ['text' => 'Movies', 'url' => '#', 'current' => 'false'],
-  ['text' => 'TV', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Games', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Collectibles', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Videos', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Fans', 'url' => '#', 'current' => 'false'],
-  ['text' => 'News', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Shop', 'url' => '#', 'current' => 'false'],
+  ['text' => 'Characters', 'url' => '/characters'],
+  ['text' => 'Comics', 'url' => '/comics'],
+  ['text' => 'Movies', 'url' => '/movies'],
+  ['text' => 'TV', 'url' => '/tv'],
+  ['text' => 'Games', 'url' => '/games'],
+  ['text' => 'Collectibles', 'url' => '/collectibles'],
+  ['text' => 'Videos', 'url' => '/videos'],
+  ['text' => 'Fans', 'url' => '/fans'],
+  ['text' => 'News', 'url' => '/news'],
+  ['text' => 'Shop', 'url' => '/shop'],
 ];
 
 ?>
