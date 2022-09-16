@@ -1,4 +1,5 @@
 @extends('layout.main')
+@section('head-title', 'Comics')
 @section('main-content')
 
   {{-- layout with thumb --}}

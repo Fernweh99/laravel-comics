@@ -1,4 +1,5 @@
 @extends('layout.main')
+@section('head-title', 'Comics')
 @php
   $comics = config('comics')
 @endphp

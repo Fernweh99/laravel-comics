@@ -10,7 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
-  <title>Dc Comics</title>
+  <link rel="icon" href="{{asset('images/dc-logo.png')}}" sizes="16x16">
+  <title>Dc Comics | @yield('head-title')</title>
 </head>
 <body>
   <header>
