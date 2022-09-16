@@ -82,6 +82,10 @@ header ul li {
   text-transform: uppercase;
 }
 
+.footer-info-comic {
+  background-color: #F6F6F6;
+}
+
 .footer-bottom {
   background-color: #303030;
 }
