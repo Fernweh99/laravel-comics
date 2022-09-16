@@ -17,6 +17,12 @@ img {
   max-width: 100%;
 }
 
+.row .border-y {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
 header {
   background-color: #fff;
 }
@@ -81,9 +87,29 @@ header ul li {
 .main-info-comic .title {
   text-transform: uppercase;
 }
+.main-info-comic .info-status {
+  background-color: #55BA58;
+  margin: 15px auto;
+  border: 1px solid black;
+  color: white;
+}
+.main-info-comic .info-status .c-green {
+  color: #ADFA90;
+}
+.main-info-comic .info-status .row {
+  padding: 12px 18px;
+}
+.main-info-comic .info-status .border-right {
+  border-right: 1px solid black;
+}
 
 .footer-info-comic {
   background-color: #F6F6F6;
+  color: #003F5D;
+  padding: 50px 0;
+}
+.footer-info-comic a {
+  font-size: 13px;
 }
 
 .footer-bottom {

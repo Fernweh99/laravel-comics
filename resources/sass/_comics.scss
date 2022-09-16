@@ -21,8 +21,28 @@
   .title {
     text-transform: uppercase;
   }
+  .info-status {
+    background-color: #55BA58;
+    margin: 15px auto;
+    border: 1px solid black;
+    color: white;
+    .c-green {
+      color: #ADFA90;
+    }
+    .row {
+      padding: 12px 18px;
+    }
+    .border-right{
+      border-right: 1px solid black;
+    }
+  }
 }
 
 .footer-info-comic {
   background-color: #F6F6F6;
+  color: #003F5D;
+  padding: 50px 0;
+  a {
+    font-size: 13px;
+  }
 }
