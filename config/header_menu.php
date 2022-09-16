@@ -2,7 +2,7 @@
 
 return [
   ['text' => 'Characters', 'url' => '#', 'current' => 'false'],
-  ['text' => 'Comics', 'url' => '#', 'current' => 'false'],
+  ['text' => 'Comics', 'url' => '/comics', 'current' => 'false'],
   ['text' => 'Movies', 'url' => '#', 'current' => 'false'],
   ['text' => 'TV', 'url' => '#', 'current' => 'false'],
   ['text' => 'Games', 'url' => '#', 'current' => 'false'],

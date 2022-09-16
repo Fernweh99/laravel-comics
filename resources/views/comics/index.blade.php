@@ -1,8 +1,8 @@
+@extends('layout.main')
 @php
   $comics = config('comics')
 @endphp
-@include ('includes.header')
-<main>
+@section('main-content')
   <div class="container my-5">
     <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6">
       @foreach($comics as $comic)
@@ -15,5 +15,4 @@
       @endforeach
     </div>
   </div>
-</main>
-@include ('includes.footer')
+@endsection

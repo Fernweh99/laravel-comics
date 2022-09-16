@@ -22,7 +22,7 @@
         <ul class="h-100">
           @foreach ($links as $link)
           <li class="h-100">
-            <a href="#" class="">{{$link['text']}}</a>
+            <a href="{{$link['url']}}" class="">{{$link['text']}}</a>
           </li>
           @endforeach
         </ul>

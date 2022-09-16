@@ -64,6 +64,24 @@ header ul li {
      object-position: top;
 }
 
+.blue-layout {
+  height: 80px;
+  background-color: #0082F9;
+}
+.blue-layout .thumb {
+  position: absolute;
+  top: -230px;
+}
+
+.main-info-comic {
+  background-color: #FFF;
+  color: black;
+  padding: 50px 0;
+}
+.main-info-comic .title {
+  text-transform: uppercase;
+}
+
 .footer-bottom {
   background-color: #303030;
 }

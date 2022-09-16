@@ -4,3 +4,21 @@
   object-fit: cover;
   object-position: top;
 }
+
+.blue-layout {
+  height: 80px;
+  background-color: #0082F9;
+  .thumb {
+    position: absolute;
+    top: -230px;
+  }
+}
+
+.main-info-comic {
+  background-color: #FFF;
+  color: black;
+  padding: 50px 0;
+  .title {
+    text-transform: uppercase;
+  }
+}
